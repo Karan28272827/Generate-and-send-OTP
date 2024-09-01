@@ -16,7 +16,7 @@ import { useState } from "react";
 export default function MyForm() {
   const [email, setEmail] = useState("");
 
-  const baseUrl = "http://localhost:4000";
+  const baseUrl = "http://localhost:3000";
 
   const sendEmail = async () => {
     let dataSend = {
